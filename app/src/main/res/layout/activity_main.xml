@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.dragableview.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlSourceOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--<TextView
+            android:id="@+id/txtSourceOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:text="Source View 1"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />-->
+
+        <ImageView
+            android:id="@+id/imgSourceOne"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_orange_dark" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlSourceTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/rlSourceOne">
+
+        <ImageView
+            android:id="@+id/imgSourceTwo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_purple" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlSourceThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/rlSourceTwo">
+
+        <ImageView
+            android:id="@+id/imgSourceThree"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_blue_dark" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlDestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/imgDestination"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_green_dark" />
+    </RelativeLayout>
+</RelativeLayout>
