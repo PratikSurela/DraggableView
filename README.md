@@ -1,28 +1,28 @@
 <h1><a href="https://github.com/PratikSurela/DragableView">DragableView</a></h1>
 
-<h2>Using DragableView you can&nbsp;merge various views into one layout with dragg and drop animation.</h2>
+Using DragableView you can&nbsp;merge various views into one layout with dragg and drop animation.
 
-<h2>For example if you have 3 ImageViews(source view) and one MainImageView(destination view) and you want to implement drag-drop animation to drag one of the imageview(source) and drop on&nbsp;MainImageView(destination view).</h2>
+For example if you have 3 ImageViews(source view) and one MainImageView(destination view) and you want to implement drag-drop animation to drag one of the imageview(source) and drop on MainImageView(destination view).
 
 <p>&nbsp;</p>
 
-<h2>Step 1 : Import module &quot;draggable-view&quot;.</h2>
+<b>Step 1 : </b>Import module &quot;draggable-view&quot;.
 
-<h2>Step 2 : initlialize &quot;DragableViewMain&quot; class.</h2>
+<b>Step 2 : </b>initlialize &quot;DragableViewMain&quot; class.
 
 <pre>
 <code>DraggableViewMain draggableViewMain = new DraggableViewMain(this, destinationViewGroup);</code></pre>
 
-<h2>Step 3 : Add views, that is source views.</h2>
+<b>Step 3 : </b>Add views, that is source views.
 
 <pre>
 <code>        draggableViewMain.addView(imgSourceOne);
         draggableViewMain.addView(imgSourceTwo);
         draggableViewMain.addView(imgSourceThree);</code></pre>
 
-<h2>Step 4 : implements &quot;OnViewSelection&quot; interface.</h2>
+<b>Step 4 : </b>implements &quot;OnViewSelection&quot; interface.
 
-<h2>Step 5 : Override method &quot;viewSelectedPosition(int position)&quot;.</h2>
+<b>Step 5 : </b>Override method &quot;viewSelectedPosition(int position)&quot;.
 
 <pre>
 <code>@Override
@@ -41,4 +41,4 @@
         return position;
     }</code></pre>
 
-<h1>That&#39;s it...Enjoy...:)</h1>
+<b>That&#39;s it...Enjoy...:)</b>
