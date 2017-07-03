@@ -1,4 +1,4 @@
-<h1><a href="https://github.com/PratikSurela/DragableView">DragableView</a></h1>
+<h1><a href="https://github.com/PratikSurela/DraggableView">DraggableView</a></h1>
 
 <p>Using DragableView you can&nbsp;merge various views into one layout with dragg and drop animation. For example if you have 3 ImageViews(source view) and one MainImageView(destination view) and you want to implement drag-drop animation to drag one of the imageview(source) and drop on MainImageView(destination view).</p>
 
