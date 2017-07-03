@@ -6,7 +6,9 @@ For example if you have 3 ImageViews(source view) and one MainImageView(destinat
 
 <p>&nbsp;</p>
 
-<b>Step 1 : </b>Import module &quot;draggable-view&quot;.
+<b>Step 1 : </b>Import module / add dependency into build.gradle &quot;draggable-view&quot;.
+<pre>
+<code>compile 'com.app:draggable-views:1.0.0'</code></pre>
 
 <b>Step 2 : </b>initlialize &quot;DragableViewMain&quot; class.
 
