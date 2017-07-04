@@ -14,7 +14,7 @@
 <p><strong>Step 2 : </strong>initlialize &quot;DragableViewMain&quot; class.</p>
 
 <pre>
-<code>DraggableViewMain draggableViewMain = new DraggableViewMain(this, destinationViewGroup);</code></pre>
+<code>DraggableViewMain draggableViewMain = new DraggableViewMain(this, relativeLayoutObject);</code></pre>
 
 <p><strong>Step 3 : </strong>Add views, that is source views.</p>
 
