@@ -2,9 +2,7 @@
 
 <p>Using DragableView you can&nbsp;merge various views into one layout with dragg and drop animation. For example if you have 3 ImageViews(source view) and one MainImageView(destination view) and you want to implement drag-drop animation to drag one of the imageview(source) and drop on MainImageView(destination view).</p>
 
-<p><img alt="Output 1" src="https://raw.githubusercontent.com/PratikSurela/DragableView/master/image1.jpg" style="border-style:solid; border-width:1px; float:left; height:480px; margin:10px; width:270px" />        <img alt="Output 2" src="https://raw.githubusercontent.com/PratikSurela/DragableView/master/image2.jpg" style="border-style:solid; border-width:1px; float:left; height:480px; margin:10px; width:270px" />       <img alt="Output 3" src="https://raw.githubusercontent.com/PratikSurela/DragableView/master/image3.jpg" style="border-style:solid; border-width:1px; float:left; height:480px; margin:10px; width:270px" /></p>
-
-<p>&nbsp;</p>
+<img src="https://thumbs.gfycat.com/FlawedUnsungAuk-max-1mb.gif" width="300" height="500" /><p>&nbsp;</p>
 
 <p><strong>Step 1 : </strong>Import module / add dependency into build.gradle &quot;draggable-view&quot;.</p>
 
