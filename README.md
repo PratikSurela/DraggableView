@@ -1,6 +1,6 @@
 <h1><a href="https://github.com/PratikSurela/DraggableView">DraggableView</a></h1>
 
-<p>Using DragableView you can&nbsp;merge various views into one layout with dragg and drop animation. For example if you have 3 ImageViews(source view) and one MainImageView(destination view) and you want to implement drag-drop animation to drag one of the imageview(source) and drop on MainImageView(destination view).</p>
+<p>Using DragableView you can&nbsp;merge various views into one layout with dragg and drop animation. For example if you have 3 ImageViews(fb,google,linkedin) and one MainImageView(Login with) and you want to implement drag-drop animation to drag one of the imageview(source) and drop on MainImageView(destination view).</p>
 
 <img src="https://thumbs.gfycat.com/FlawedUnsungAuk-max-1mb.gif" width="300" height="500" /><p>&nbsp;</p>
 
@@ -17,9 +17,9 @@
 <p><strong>Step 3 : </strong>Add views, that is source views.</p>
 
 <pre>
-<code>        draggableViewMain.addView(imgSourceOne);
-        draggableViewMain.addView(imgSourceTwo);
-        draggableViewMain.addView(imgSourceThree);</code></pre>
+<code>        draggableViewMain.addView(imgFacebook);
+        draggableViewMain.addView(imgGoogle);
+        draggableViewMain.addView(imgLinkedIn);</code></pre>
 
 <p><strong>Step 4 : </strong>implements &quot;OnViewSelection&quot; interface. <strong>Step 5 : </strong>Override method &quot;viewSelectedPosition(int position)&quot;.</p>
 
@@ -29,13 +29,13 @@
 
         if (position == 0) {
             //do after view one dragged
-            Toast.makeText(this, &quot;dragged view position = &quot; + position, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, &quot;Login with Facebook&quot;, Toast.LENGTH_SHORT).show();
         } else if (position == 1) {
             //do after view two dragged
-            Toast.makeText(this, &quot;dragged view position = &quot; + position, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, &quot;Login with Google&quot;, Toast.LENGTH_SHORT).show();
         } else if (position == 2) {
             //do after view three dragged
-            Toast.makeText(this, &quot;dragged view position = &quot; + position, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, &quot;Login with LinkedIn&quot;, Toast.LENGTH_SHORT).show();
         }
         return position;
     }</code></pre>
