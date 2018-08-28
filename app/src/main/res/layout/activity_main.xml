@@ -24,11 +24,11 @@
             android:textSize="20sp" />-->
 
         <ImageView
-            android:id="@+id/imgSourceOne"
+            android:id="@+id/imgFacebook"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:background="@android:color/holo_orange_dark" />
+            android:background="@drawable/ic_facebook" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -38,11 +38,11 @@
         android:layout_toRightOf="@+id/rlSourceOne">
 
         <ImageView
-            android:id="@+id/imgSourceTwo"
+            android:id="@+id/imgGoogle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:background="@android:color/holo_purple" />
+            android:background="@drawable/ic_gmail" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -52,11 +52,11 @@
         android:layout_toRightOf="@+id/rlSourceTwo">
 
         <ImageView
-            android:id="@+id/imgSourceThree"
+            android:id="@+id/imgLinkedIn"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:background="@android:color/holo_blue_dark" />
+            android:background="@drawable/ic_linkedin" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -65,11 +65,16 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
 
-        <ImageView
-            android:id="@+id/imgDestination"
+        <TextView
+            android:id="@+id/txtDestination"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:background="@android:color/holo_green_dark" />
+            android:background="@drawable/bg_circle"
+            android:gravity="center"
+            android:text="Login \n with"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp"
+            android:textStyle="bold" />
     </RelativeLayout>
 </RelativeLayout>
